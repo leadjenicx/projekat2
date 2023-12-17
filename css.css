@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: lightpink;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#gallery img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #72a07c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4e6c56;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: lightpink;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    border: 1px solid pink;
+    padding: 0px 20px;
+    background-color: gray;
+    
+
+    
+}
+
+
+
+.navbar .logo{
+    width: 120px;
+}
+.nav-menu .nav-item{
+    display: inline;
+    margin: 20px;
+    font-size: 25px;
+}
+.nav-menu .nav-item a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 25px;
+    transition: 0.3s ease;
+    font-family: 'Lucida Handwriting Std', sans-serif;
+}
+.nav-menu .nav-item a:hover{
+    background-color: lightpink;
+}
+.icons .ikonice {
+width: 110px;
+height: 100px;
+}
+#gallery h2{
+    font-family: 'Lucida Handwriting Std', sans-serif;
+    font-style: italic;
+    color: lightcoral;
+    text-align: center;
+    text-transform: uppercase;
+}
+.flower-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.flower-image h2{
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.flower-image p{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.flower-image p:hover{
+    background-color: lightpink;
+}
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flower-image {
+    flex-basis: calc(33.33% - 10px);
+    margin-bottom: 20px;
+}
+
+#gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#gallery img:hover {
+    transform: scale(1.05);
+}
